@@ -1,0 +1,4 @@
+p = mat + 1; Legal (p recebe o endereço de mat e incrementa em 4 bits -> 1 byte)
+p = mat++; Ilegal (erro de sintaxe, endereços não podem ser incrementados)
+p = ++mat; Ilegal (erro de sintaxe, acho que essa expressão nem existe)
+x = (*mat)++; Ilegal (aparece um resultado não esperado -> 0 e x não é ponteiro)
