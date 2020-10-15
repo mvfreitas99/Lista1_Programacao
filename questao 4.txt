@@ -1,8 +1,0 @@
-p = i;  Legal (p recebe conteudo de i)
-q = &j; Legal (q recebe endereço de j)
-p = &*&i; Legal (p recebe endereço de i)
-i = (*&)j; Ilegal (sintaxe errada)
-i = *&j; Legal (i recebe endereço de j)
-i = *&*&j; Legal (i recebe conteudo de j)
-q = *p; Ilegal (q não é ponteiro para ponteiro)
-i = (*p)++ + *q; Ilegal (os ponteiros não estao apontando pra nada)
