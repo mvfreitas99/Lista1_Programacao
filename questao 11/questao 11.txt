@@ -1,0 +1,8 @@
+aloha[2] = value; Valido (terceira posição de aloha recebe value)
+scanf("%f", &aloha); Invalido (não especifica em qual posição do vetor será inserido o valor)
+aloha = value"; Invalido (não especifica em qual posição do vetor será inserido o valor)
+printf("%f", aloha); Valido (porém não tem nada dentro do vetor)
+coisas[4][4] = aloha[3]; Valido (porém não tem nada dentro do vetor, consequentemente, dentro da matriz)
+coisas[5] = aloha; Inválido (Não especifica qual coluna da matriz)
+pf = value; Inválido
+pf = aloha; Válido

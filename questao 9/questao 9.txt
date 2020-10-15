@@ -1,0 +1,10 @@
+char -> 1 byte = 4 bits
+int -> 2 bytes = 8 bits
+float -> 4 bytes = 16 bits
+double -> 8 bytes = 32 bits
+
+x=4092
+para char -> x+1=4096; x+2=4100; x+3=4104
+para int -> x+1=4100; x+2=4108; x+3=4116
+para float -> x+1=4108; x+2=4124; x+3=4140
+para double -> x+1=4124; x+2=4156; x+3=4188
