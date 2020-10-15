@@ -1,0 +1,1 @@
+Após teste com a função qsorte e com uma função criada, percebemos que a qsort levou cerca de 160 vezes menos tempo para realizar a função de ordenar os valores
