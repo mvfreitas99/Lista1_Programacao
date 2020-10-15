@@ -1,7 +1,0 @@
-i = 5
-
-62fe1c // endereço de i ou conteudo de p
- 7 // conteudo de i + 2
- 5 // conteudo do endereço armazenado
- 15 // 3 vezes o conteudo de i
- 9 // conteudo do endereço armazenado + 2
