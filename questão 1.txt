@@ -1,2 +1,0 @@
-Um ponteiro proporciona um modo de acesso a variáveis sem precisar chamá-las diretamente, para isso usamos o endereço alocado na memória do computador. 
-Um ponteiro tem como conteúdo um endereço de memória, este endereço é a localização de uma outra variável de memória.
