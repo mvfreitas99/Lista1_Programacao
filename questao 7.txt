@@ -1,1 +1,0 @@
-as expressões *(pulo + 2) e (pulo + 2) se referenciam ao terceiro elemento do vetor pulo
